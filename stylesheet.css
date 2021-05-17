@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color:#FEFBF9;
+}
+a { 
+    color:#0000FF; text-decoration:none; 
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+.container {
+    width:1145px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn1{
+    float:left;
+    font-size: 14px;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    padding: 0 11px 20px 13px;
+}
+.shopping {
+    color:rgb(218, 162, 170);
+    font-size: 30px;
+    float: left;
+}
+.btn2 {
+    color:black;
+    float: left;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+li a {
+    color:rgb(64,99,93);
+}
+.twitter {
+    padding: 0 13px 15px 13px;
+}
+header {
+    height: 60px;
+    width: 100%;
+    background-color:#FEFBF9;
+    position:fixed;
+    z-index: 50;
+}
+li{
+    display:inline-block;
+}
+.logo1 {
+    padding-top: 90px;
+    height: 150px;
+ 
+}
+.main-logo {
+    height: 260px;
+    text-align: center;
+}
+.top-pic {
+    width: 100%;
+    box-shadow: 0 1px 1px 1px rgba(173, 170, 169, 0.5);
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #213290;
+    font-size: 40px;
+    font-style: normal;
+    padding-top:7px;
+    padding-bottom:15px
+}
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: #213290;
+}
+.top-box {
+    text-align: center;
+}
+.item-icon {
+    padding:0 3px;
+    display: inline-block;
+}
+.item-icon img {
+    position: relative;
+    width: 250px;
+    display: inline-block;
+}
+.item-icon p {
+    position: absolute;
+    top: 0px;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    background-color: #D09CA6;
+    padding:8px 20px;
+}
+
+.item {
+    float:left;
+    padding:0 10px;
+    position: relative;
+}
+.items {
+    padding-top:65px;
+}
+.contents1p {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: #213290;
+}
+.contents1{
+    padding-top: 320px;
+}
+.contents2 img{
+    float: left;
+}
+.contents2-1 {
+    width: 400px;
+}
+.contents2-2 {
+    width: 400px;
+}
+.contents2-3 {
+    width: 420px;
+}
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color:#40635D;
+}
