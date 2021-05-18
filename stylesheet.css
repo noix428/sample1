@@ -29,18 +29,20 @@ ul {
     color:rgb(218, 162, 170);
     font-size: 30px;
     float: left;
+    position: absolute;
+    top:1px;
 }
 .btn2 {
     color:black;
     float: left;
     font-size: 16px;
-    padding-bottom: 15px;
+    padding-bottom: 17px;
 }
 li a {
     color:rgb(64,99,93);
 }
 .twitter {
-    padding: 0 13px 15px 13px;
+    padding: 0 13px 17px 38px;
 }
 header {
     height: 60px;
@@ -88,7 +90,7 @@ p {
 }
 .item-icon img {
     position: relative;
-    width: 250px;
+    width: 290px;
     display: inline-block;
 }
 .item-icon p {
@@ -101,7 +103,7 @@ p {
 }
 
 .item {
-    float:left;
+    display: inline-block;
     padding:0 10px;
     position: relative;
 }
@@ -115,22 +117,93 @@ p {
     color: #213290;
 }
 .contents1{
-    padding-top: 320px;
+    padding-top: 75px;
 }
-.contents2 img{
-    float: left;
+
+.contents2 {
+    position: relative;
+    height: 500px;
 }
 .contents2-1 {
-    width: 400px;
+    width: 380px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
 }
 .contents2-2 {
-    width: 400px;
+    width: 350px;
+    position: absolute;
+    top: 160px;
+    left: 170px;
 }
 .contents2-3 {
-    width: 420px;
+    width: 400px;
+    position: absolute;
+    top:265px;
+    left:145px;
 }
+.contents2-4 {
+    width: 410px;
+    position: absolute;
+    top:345px;
+    left:160px;
+}
+.drop1{
+    color:#FF909D;
+    font-size:30px;
+    position: absolute;
+    top:50px;
+    left: 270px;
+}
+.drop2{
+    color:#FF909D;
+    font-size:30px;
+    position: absolute;
+    top:25px;
+    left: 360px;
+}
+.contents2-5 {
+    width: 300px;
+    position: absolute;
+    top: 103px;
+    left: 725px;
+}
+.txt {
+    color: #213290;
+}
+.txt2-1 {
+    position: absolute;
+    top: 105px;
+    left: 579px;
+    text-align: left;
+}
+.txt2-2 {
+    position: absolute;
+    top: 210px;
+    left: 590px;
+    text-align: left;
+}
+.txt2-3 {
+    position: absolute;
+    top: 325px;
+    left: 605px;
+    text-align: left;
+}
+.txt2-4 {
+    position: absolute;
+    top: 470px;
+    left: 610px;
+}
+.contents3 {
+ height:300px;
+}
+.txt3-1 {
+    padding-top:55px;
+}
+
 .footer {
     height: 60px;
     width: 100%;
     background-color:#40635D;
+
 }
