@@ -163,10 +163,11 @@ p {
     left: 360px;
 }
 .contents2-5 {
-    width: 300px;
+    font-size: 200px;
+    color: #FFD04E;
     position: absolute;
-    top: 103px;
-    left: 725px;
+    top: 65px;
+    left: 770px;
 }
 .txt {
     color: #213290;
@@ -193,6 +194,18 @@ p {
     position: absolute;
     top: 470px;
     left: 610px;
+}
+.txt2-5 {
+    font-size:17px;
+    position: absolute;
+    top: 180px;
+    left: 810px;
+}
+.txt2-6 {
+    position: absolute;
+    top: 235px;
+    left: 850px;
+    size:8px;
 }
 .contents3 {
  height:300px;
