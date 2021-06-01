@@ -231,8 +231,40 @@ p {
     position: absolute;
     top: 40px;
     left: 590px;
-}
 
+}
+.border1{
+    border-top:2px solid #213290;
+    width: 60px;
+    position: absolute;
+    top: 110px;
+    left: 505px;
+    transform:rotate(11deg);
+}
+.border2{
+    border-top:2px solid #213290;
+    width: 60px;
+    position: absolute;
+    top: 225px;
+    left: 510px;
+    transform:rotate(6deg);
+}
+.border3{
+    border-top:2px solid #213290;
+    width: 65px;
+    position: absolute;
+    top: 336px;
+    left: 516px;
+    transform:rotate(15deg);
+}
+.border4{
+    border-top:2px solid #213290;
+    width: 97px;
+    position: absolute;
+    top: 455px;
+    left: 503px;
+    transform:rotate(15deg);
+}
 .wash-wrapper {
     height:400px;
 }
@@ -472,7 +504,10 @@ footer li {
 }
 .chat-pp {
     color:rgb(218, 162, 170);
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position:fixed;
+    right:211px;
+    bottom:2px;
+}
+.chat-pp span{
+    font-size:5px;
 }
