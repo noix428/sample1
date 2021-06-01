@@ -447,6 +447,11 @@ footer li {
     font-family: 'Raleway', sans-serif;
     font-size:14px;
 }
+.chat-wrapper {
+    position: fixed;
+    right:20px;
+    bottom:20px;
+}
 .chat-btn {
     background-color: rgb(218, 162, 170);
     width: 240px;
