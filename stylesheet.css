@@ -336,7 +336,7 @@ p {
 }
 footer {
     height: 550px;
-    width: cover;
+    width: 100%;
     background-color:#40635D;
     font-family: 'Signika', sans-serif;
 }
@@ -356,7 +356,7 @@ footer li {
     text-align: left;
 }
 .footer1 {
-    height: 80px;
+    height: 90px;
     font-size: 25px;
     padding-top: 85px;
     padding-left:200px;
@@ -366,17 +366,16 @@ footer li {
     padding-right:185px;
 }
 .footer2 {
-    background-color: blue;
     display: block;
     height: 200px;
+    line-height:0;
 }
 .footer2-1 {
-
    float: left;
    padding-left: 200px;
 }
-.footer2 li {
-    padding-bottom: 60px;
+.footer2-4{
+    padding-top:77px;
 }
 .footer2-2 {
     float: left;
@@ -394,9 +393,8 @@ footer li {
     font-size: 18px;
     display: inline-block;
     font-family: 'Cormorant Garamond', serif;
-    background-color: black;
     color: #213290;
-    margin:0 480px 0 0;
+    margin:24px 480px 0 0;
 }
 
 .footer-btn {
@@ -446,6 +444,7 @@ footer li {
 .footer-name p{
     font-family: 'Raleway', sans-serif;
     font-size:14px;
+    padding-bottom: 15px;
 }
 .chat-wrapper {
     position: fixed;
