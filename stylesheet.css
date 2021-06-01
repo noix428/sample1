@@ -208,15 +208,267 @@ p {
     size:8px;
 }
 .contents3 {
- height:300px;
+    position: relative;
+    height:300px;
 }
-.txt3-1 {
-    padding-top:55px;
+    
+.txt3 {
+    padding-top:100px;
+    position: absolute;
+    top:5px;
+    left: 390px;
+}
+.contents3-1 {
+    color: #FFE1DB;
+    font-size: 200px;
+    position: absolute;
+    top: 20px;
+    left: 335px;
+}
+.contents3-2 {
+    color: #FFE1DB;
+    font-size: 200px;
+    position: absolute;
+    top: 40px;
+    left: 590px;
 }
 
-.footer {
-    height: 60px;
-    width: 100%;
+.wash-wrapper {
+    height:400px;
+}
+.wash {
+    position: relative;
+}
+.wash-img1 {
+    position: absolute;
+    top: 26px;
+    left: 640px;
+    height: 100px;
+    transform: rotateZ(335deg);
+}
+.wash-img2 {
+    position: absolute;
+    top: 63px;
+    left: 555px;
+    height: 140px;
+}
+.wash-img3 {
+    position: absolute;
+    top: 95px;
+    left: 215px;
+    height: 210px;
+}
+.wash-img4 {
+    position: absolute;
+    top: 115px;
+    left: 450px;
+    height: 230px;
+}
+.wash-img5 {
+    position: absolute;
+    top: 125px;
+    left: 772px;
+    height: 197px;
+}
+.arrow1 {
+    position: absolute;
+    top: 190px;
+    left: 695px;
+    font-size: 50px;
+    color:#FC5301;
+}
+.arrow2 {
+    position: absolute;
+    top: 190px;
+    left: 415px;
+    font-size: 50px;
+    color:#FC5301;
+}
+
+.txtw {
+    color:#213290;
+}
+.txt4 {
+    position: absolute;
+    top: 330px;
+    left: 235px;
+}
+.txt5 {
+    position: absolute;
+    top: 330px;
+    left: 520px;
+}
+.txt6 {
+    position: absolute;
+    top: 330px;
+    left: 815px;
+}
+.contents4-wrapper {
+    height: 255px;
+}
+.contents4 {
+    display:block;
+    color:white;
+    width: 350px;
+}
+.btn3 {
+    width: 365px;
+    height: 30px;
+    margin: 40px auto;
+    background-color: #213290;
+    font-size:16px;
+    padding:11px 0;
+}
+.btn4 {
+    width: 365px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: #213290;
+    font-size:16px;
+    padding:12px 0;
+
+}
+.contents4:hover {
+    transition: all 0.5s;
+    background-color:rgb(201, 190, 170);
+    color: black;
+    
+}
+footer {
+    height: 550px;
+    width: cover;
     background-color:#40635D;
+    font-family: 'Signika', sans-serif;
+}
+footer a {
+    color: #DFBDC4;
+    
+}
+footer p {
+    color: #DFBDC4;
+    display: inline-block;
+}
+footer li {
+    display:list-item;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+}
+.footer1 {
+    height: 80px;
+    font-size: 25px;
+    padding-top: 85px;
+    padding-left:200px;
+}
+.footer1 a {
+    float: left;
+    padding-right:185px;
+}
+.footer2 {
+    background-color: blue;
+    display: block;
+    height: 200px;
+}
+.footer2-1 {
 
+   float: left;
+   padding-left: 200px;
+}
+.footer2 li {
+    padding-bottom: 60px;
+}
+.footer2-2 {
+    float: left;
+    padding-left: 122px;
+}
+.footer2-3 {
+    display: inline-block;
+    padding-right:150px;
+}
+.footer2-3 p {
+    font-size: 14px;
+    display:inline;
+}
+.footer3{
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: black;
+    color: #213290;
+    margin:0 480px 0 0;
+}
+
+.footer-btn {
+    position:relative;
+ 
+}
+.footer-twitter {
+    padding-left: 887px;
+    float:left;
+    height:70px;
+    width: 70px;
+}
+.btn6-1 {
+    color:white;
+    font-size:63px;
+}
+.btn5-twitter{
+    display: inline-block;
+    position: absolute;
+    color:#40635D;
+    font-size:30px;
+    top:20px;
+    left:907px;
+}
+.footer-insta {
+    display: inline-block;
+    height:70px;
+    width: 70px;
+    position: absolute;
+    left:963px;
+}
+.btn6-2 {
+    color:white;
+    font-size:63px;
+}
+.btn5-insta{
+    position: absolute;
+    color:#40635D;
+    font-size:38px;
+    top:14px;
+    left:19px;
+}
+.footer-name {
+    width: 200px;;
+    margin: auto;
+}
+.footer-name p{
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+}
+.chat-btn {
+    background-color: rgb(218, 162, 170);
+    width: 240px;
+    height:55px;
+    border-radius: 8px;
+    position:relative;
+}
+.chat-p{
+    line-height: 55px;
+    color:white;
+    font-size:18px;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+}
+.chat-btn span{
+    font-size:25px;
+    padding-right:10px;
+    line-height: 55px;
+}
+.chat-pp {
+    color:rgb(218, 162, 170);
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
